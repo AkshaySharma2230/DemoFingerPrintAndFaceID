@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		D014A3812C036969003F8E66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3802C036969003F8E66 /* AppDelegate.swift */; };
 		D014A3832C036969003F8E66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3822C036969003F8E66 /* SceneDelegate.swift */; };
-		D014A3852C036969003F8E66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3842C036969003F8E66 /* ViewController.swift */; };
 		D014A3882C036969003F8E66 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D014A3872C036969003F8E66 /* Base */; };
 		D014A38A2C03696A003F8E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D014A3892C03696A003F8E66 /* Assets.xcassets */; };
 		D014A38D2C03696A003F8E66 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D014A38C2C03696A003F8E66 /* Base */; };
 		D014A3982C03696A003F8E66 /* DemoAuthFingerprintFaceIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3972C03696A003F8E66 /* DemoAuthFingerprintFaceIDTests.swift */; };
 		D014A3A22C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3A12C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITests.swift */; };
 		D014A3A42C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3A32C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITestsLaunchTests.swift */; };
+		D014A3B12C036B5E003F8E66 /* SucessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3B02C036B5E003F8E66 /* SucessVC.swift */; };
+		D014A3B32C036B7D003F8E66 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3B22C036B7D003F8E66 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		D014A37D2C036969003F8E66 /* DemoAuthFingerprintFaceID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAuthFingerprintFaceID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D014A3802C036969003F8E66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D014A3822C036969003F8E66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D014A3842C036969003F8E66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D014A3872C036969003F8E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D014A3892C03696A003F8E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D014A38C2C03696A003F8E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		D014A39D2C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAuthFingerprintFaceIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D014A3A12C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAuthFingerprintFaceIDUITests.swift; sourceTree = "<group>"; };
 		D014A3A32C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAuthFingerprintFaceIDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D014A3B02C036B5E003F8E66 /* SucessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SucessVC.swift; sourceTree = "<group>"; };
+		D014A3B22C036B7D003F8E66 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +103,8 @@
 			children = (
 				D014A3802C036969003F8E66 /* AppDelegate.swift */,
 				D014A3822C036969003F8E66 /* SceneDelegate.swift */,
-				D014A3842C036969003F8E66 /* ViewController.swift */,
+				D014A3B02C036B5E003F8E66 /* SucessVC.swift */,
+				D014A3B22C036B7D003F8E66 /* LoginVC.swift */,
 				D014A3862C036969003F8E66 /* Main.storyboard */,
 				D014A3892C03696A003F8E66 /* Assets.xcassets */,
 				D014A38B2C03696A003F8E66 /* LaunchScreen.storyboard */,
@@ -258,8 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D014A3852C036969003F8E66 /* ViewController.swift in Sources */,
+				D014A3B12C036B5E003F8E66 /* SucessVC.swift in Sources */,
 				D014A3812C036969003F8E66 /* AppDelegate.swift in Sources */,
+				D014A3B32C036B7D003F8E66 /* LoginVC.swift in Sources */,
 				D014A3832C036969003F8E66 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
