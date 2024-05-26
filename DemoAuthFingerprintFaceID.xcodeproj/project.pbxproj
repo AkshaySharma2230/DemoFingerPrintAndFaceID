@@ -17,6 +17,7 @@
 		D014A3A42C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3A32C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITestsLaunchTests.swift */; };
 		D014A3B12C036B5E003F8E66 /* SucessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3B02C036B5E003F8E66 /* SucessVC.swift */; };
 		D014A3B32C036B7D003F8E66 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3B22C036B7D003F8E66 /* LoginVC.swift */; };
+		D014A3B52C036D7B003F8E66 /* FingerPrintAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D014A3B42C036D7B003F8E66 /* FingerPrintAuth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D014A3A32C03696A003F8E66 /* DemoAuthFingerprintFaceIDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAuthFingerprintFaceIDUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D014A3B02C036B5E003F8E66 /* SucessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SucessVC.swift; sourceTree = "<group>"; };
 		D014A3B22C036B7D003F8E66 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D014A3B42C036D7B003F8E66 /* FingerPrintAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerPrintAuth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				D014A3892C03696A003F8E66 /* Assets.xcassets */,
 				D014A38B2C03696A003F8E66 /* LaunchScreen.storyboard */,
 				D014A38E2C03696A003F8E66 /* Info.plist */,
+				D014A3B42C036D7B003F8E66 /* FingerPrintAuth.swift */,
 			);
 			path = DemoAuthFingerprintFaceID;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				D014A3812C036969003F8E66 /* AppDelegate.swift in Sources */,
 				D014A3B32C036B7D003F8E66 /* LoginVC.swift in Sources */,
 				D014A3832C036969003F8E66 /* SceneDelegate.swift in Sources */,
+				D014A3B52C036D7B003F8E66 /* FingerPrintAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +458,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,6 +487,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

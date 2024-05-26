@@ -14,4 +14,17 @@ class LoginVC: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func btnFingerPrintTappedAction(_ sender: UIButton) {
+        FingerprintAuth.share.accessAuth { (success, error) in
+            if success {
+                guard let vc = self.storyboard?.instantiateViewController(identifier: "SucessVC") as? SucessVC else {
+                    return
+                }
+                self.navigationController?.pushViewController(vc, animated: true)
+            }
+        }
+    }
+    
+    
 }
